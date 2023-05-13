@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:url(Image/background08.jpg);
+        }
+        
+        span{
+            font-size: 2rem;
+            color: hsl(313, 39%, 95%);
+            display: inline;
+            text-decoration: underline;
+            text-transform: uppercase;
+            letter-spacing: 4px;
+            transform: rotate(360deg);
+            animation: animate 8s linear infinite;
+        }
+        
+        @keyframes animate{
+            0%{
+                transform: rotate(0deg);
+            }
+            50%{
+                transform: rotate(360deg);
+            }
+            100%{
+                transform: rotate(0deg);
+            }
+
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span>Hello World</span>
+        <span><</span>
+        <span>M</span>
+        <span>K</span>
+        <span>U</span>
+        <span>U</span>
+        <span>C</span>
+        <span>O</span>
+        <span>D</span>
+        <span>E</span>
+        <span>R</span>
+        <span>/></span>
+        
+
+    </div>
+</body>
+</html>
